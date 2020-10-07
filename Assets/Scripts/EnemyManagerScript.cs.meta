@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9e1edae52d5264393903445124c3ed3a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Archer: {fileID: 1909963545385241432, guid: 06b66791e841344968a365c42e0767a6,
+      type: 3}
+  - Brute: {fileID: 3290937267353799983, guid: a421266a78ca12545b7f988ba23a7ea1, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
