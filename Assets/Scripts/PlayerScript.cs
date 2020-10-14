@@ -14,6 +14,8 @@ public class PlayerScript : MonoBehaviour {
 
     public GameObject projectile;
     public KeyCode fireKey;
+    
+    
 
     // Start is called before the first frame update
     void Start() {
@@ -54,6 +56,7 @@ public class PlayerScript : MonoBehaviour {
             Destroy(other.gameObject);
             health -= 0.2f;
             Debug.Log(health);
+            Destroy(GameObject.FindWithTag("Life"));
 
         }
         
@@ -62,6 +65,7 @@ public class PlayerScript : MonoBehaviour {
             Destroy(other.gameObject);
             health -= 0.1f;
             Debug.Log(health);
+            Destroy(GameObject.FindWithTag("Heart"));
         }
     }
 }
